@@ -1,9 +1,9 @@
 # Magic-Me
-
-This repo includes a series of research work about ID-specific content generation by UC Berkeley X ByteDance.
 [![Project Page](https://img.shields.io/badge/Project-Website-green)]()
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+This repo includes a series of research work about ID-specific content generation by UC Berkeley X ByteDance.
 
 
 **Magic Album: Identity-Specific Video Customized Diffusion**
@@ -16,18 +16,9 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="__assets__/figs/framwork-comfyui-v1.png" style="width:95%">
 
-Altman as a superman | caption2 | Altman as a superman |caption2
+Altman| Altman | Robert |Taylor
 :-: | :-: | :-: | :-:
-<video src='__assets__/videos/altman-superman.mp4' width=180/> | <video src='__assets__/videos/ironman-desert.mp4' width=180/> | <video src='__assets__/videos/ironman-desert.mp4' width=180/> | <video src='__assets__/videos/altman-walking.mp4' width=180/>
-
-
-<div style="display: flex; justify-content: space-between;">
-  <video controls="true" autoplay="true" loop="true" style="width: 24%;"><source src="__assets__/videos/altman-superman.mp4" type="video/mp4"></video>
-  <video controls="true" autoplay="true" loop="true" style="width: 24%;"><source src="__assets__/videos/ironman-desert.mp4" type="video/mp4"></video>
-  <video controls="true" autoplay="true" loop="true" style="width: 24%;"><source src="__assets__/videos/taylor-light.mp4" type="video/mp4"></video>
-  <video controls="true" autoplay="true" loop="true" style="width: 24%;"><source src="__assets__/videos/altman-walking.mp4" type="video/mp4"></video>
-</div>
-
+| <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/6f18f2f9-89e5-4c05-9f3c-723bc374e9de">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/454497b3-f0bf-4341-9415-e068f39e9246"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ab6912a8-90bd-4fc8-8b1c-c30a64dcff7a"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/0f169b01-0125-484d-a1c2-34691fdcd165"> |
 
 ## Next
 More works will be released soon. Stay tuned.
