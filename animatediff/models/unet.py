@@ -112,7 +112,6 @@ class UNet3DConditionModel(ModelMixin, ConfigMixin, UNet2DConditionLoadersMixin)
             self.class_embedding = nn.Identity(time_embed_dim, time_embed_dim)
         else:
             self.class_embedding = None
-        Transformer3DModel.Transformer3DModel_GLOBAL_POS = 0
         self.down_blocks = nn.ModuleList([])
         self.mid_block = None
         self.up_blocks = nn.ModuleList([])

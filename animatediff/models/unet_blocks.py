@@ -36,7 +36,6 @@ def get_down_block(
     
     motion_module_type=None,
     motion_module_kwargs=None,
-    is_ed=False,
 ):
     down_block_type = down_block_type[7:] if down_block_type.startswith("UNetRes") else down_block_type
     if down_block_type == "DownBlock3D":
@@ -86,7 +85,6 @@ def get_down_block(
             use_motion_module=use_motion_module,
             motion_module_type=motion_module_type,
             motion_module_kwargs=motion_module_kwargs,
-            is_ed=is_ed,
         )
     raise ValueError(f"{down_block_type} does not exist.")
 
@@ -117,7 +115,6 @@ def get_up_block(
     use_motion_module=None,
     motion_module_type=None,
     motion_module_kwargs=None,
-    is_ed=False,
 ):
     up_block_type = up_block_type[7:] if up_block_type.startswith("UNetRes") else up_block_type
     if up_block_type == "UpBlock3D":
@@ -167,7 +164,6 @@ def get_up_block(
             use_motion_module=use_motion_module,
             motion_module_type=motion_module_type,
             motion_module_kwargs=motion_module_kwargs,
-            is_ed=is_ed,
         )
     raise ValueError(f"{up_block_type} does not exist.")
 
@@ -199,7 +195,6 @@ class UNetMidBlock3DCrossAttn(nn.Module):
         
         motion_module_type=None,
         motion_module_kwargs=None,
-        is_ed=False,
     ):
         super().__init__()
 
@@ -243,7 +238,6 @@ class UNetMidBlock3DCrossAttn(nn.Module):
 
                     unet_use_cross_frame_attention=unet_use_cross_frame_attention,
                     unet_use_temporal_attention=unet_use_temporal_attention,
-                    is_ed=is_ed,
                 )
             )
             motion_modules.append(
@@ -315,7 +309,6 @@ class CrossAttnDownBlock3D(nn.Module):
 
         motion_module_type=None,
         motion_module_kwargs=None,
-        is_ed=False,
     ):
         super().__init__()
         resnets = []
@@ -359,7 +352,6 @@ class CrossAttnDownBlock3D(nn.Module):
 
                     unet_use_cross_frame_attention=unet_use_cross_frame_attention,
                     unet_use_temporal_attention=unet_use_temporal_attention,
-                    is_ed=is_ed,
                 )
             )
             motion_modules.append(
@@ -560,7 +552,6 @@ class CrossAttnUpBlock3D(nn.Module):
 
         motion_module_type=None,
         motion_module_kwargs=None,
-        is_ed=False,
     ):
         super().__init__()
         resnets = []
@@ -606,7 +597,6 @@ class CrossAttnUpBlock3D(nn.Module):
 
                     unet_use_cross_frame_attention=unet_use_cross_frame_attention,
                     unet_use_temporal_attention=unet_use_temporal_attention,
-                    is_ed=is_ed,
                 )
             )
             motion_modules.append(

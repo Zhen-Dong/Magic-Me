@@ -1,1 +1,1 @@
-python train.py --config configs/ceo.yaml --prefix  magic_album
+python train.py --config configs/ceo.yaml --prefix  magic-me-

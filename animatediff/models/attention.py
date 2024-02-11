@@ -31,8 +31,6 @@ else:
 
 class Transformer3DModel(ModelMixin, ConfigMixin):
     
-    Transformer3DModel_GLOBAL_POS = 0
-
     @register_to_config
     def __init__(
         self,
@@ -52,13 +50,11 @@ class Transformer3DModel(ModelMixin, ConfigMixin):
 
         unet_use_cross_frame_attention=None,
         unet_use_temporal_attention=None,
-        is_ed=False,
     ):
         super().__init__()
         self.use_linear_projection = use_linear_projection
         self.num_attention_heads = num_attention_heads
         self.attention_head_dim = attention_head_dim
-        self.is_ed = is_ed
         inner_dim = num_attention_heads * attention_head_dim
         assert num_layers == 1, f"The inner most block should always have num_layers=1, however {num_layers} != 1"
         # Define input layers
@@ -69,9 +65,6 @@ class Transformer3DModel(ModelMixin, ConfigMixin):
             self.proj_in = nn.Linear(in_channels, inner_dim)
         else:
             self.proj_in = nn.Conv2d(in_channels, inner_dim, kernel_size=1, stride=1, padding=0)
-        print("Transformer3DModel_GLOBAL_POS:", Transformer3DModel.Transformer3DModel_GLOBAL_POS)
-        self.Transformer3DModel_GLOBAL_POS = Transformer3DModel.Transformer3DModel_GLOBAL_POS
-        Transformer3DModel.Transformer3DModel_GLOBAL_POS += 1
 
         # Define transformers blocks
         self.transformer_blocks = nn.ModuleList(
@@ -106,9 +99,6 @@ class Transformer3DModel(ModelMixin, ConfigMixin):
         assert hidden_states.dim() == 5, f"Expected hidden_states to have ndim=5, but got ndim={hidden_states.dim()}."
         video_length = hidden_states.shape[2]
         hidden_states = rearrange(hidden_states, "b c f h w -> (b f) c h w")
-        if self.is_ed:
-            assert len(encoder_hidden_states.shape) == 4, f"encoder_hidden_states.shape: {encoder_hidden_states.shape}"
-            encoder_hidden_states = encoder_hidden_states[:, self.Transformer3DModel_GLOBAL_POS, :, :]
         encoder_hidden_states = repeat(encoder_hidden_states, 'b n c -> (b f) n c', f=video_length)
 
         batch, channel, height, weight = hidden_states.shape
