@@ -1,0 +1,81 @@
+output_dir: "outputs"
+pretrained_model_path: "models/StableDiffusion"
+
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start:          0.00085
+  beta_end:            0.012
+  beta_schedule:       "linear"
+  steps_offset:        1
+  clip_sample:         false
+
+train_data:
+  datapath:     "dataset/ceo"
+  caption: "<new1> <new2> <new3> <new4> man"
+  sample_size:  512
+  use_orig_img_rate: 0.05
+  sam_prompt: "person"
+
+
+unet_checkpoint_path: ""
+
+learning_rate:    1.0e-3
+train_batch_size: 4
+
+max_train_epoch:      -1
+max_train_steps:      400
+checkpointing_epochs: -1
+checkpointing_steps:  200
+
+validation_steps:       200
+
+global_seed: 42
+mixed_precision_training: False
+enable_xformers_memory_efficient_attention: True
+is_debug: False
+noise_offset: 0.1
+modifier_tokens: ["<new1>","<new2>","<new3>","<new4>"]
+
+sub_name: ""
+validation_data:
+  seed:           [12099779162349365895,]
+
+  prompts:
+    - "photo of a <new1> <new2> <new3> <new4> man in casual clothes, natural skin, in front of the Pyramid, Egypt"
+    - "Photo of a <new1> <new2> <new3> <new4> man on a balcony with a cityscape at night, with soft lights twinkling in the distance"
+
+  n_prompts:
+    - "semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+    - "semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+  num_inference_steps: 25
+  guidance_scale: 7.5
+  video_length: 16
+  path: models/DreamBooth_LoRA/realisticVisionV51_v20Novae.safetensors
+  motion_module:  "models/Motion_Module/mm_sd_v15_v2.ckpt"
+  unet_additional_kwargs:
+    use_inflated_groupnorm: true
+    unet_use_cross_frame_attention: false
+    unet_use_temporal_attention: false
+    use_motion_module: true
+    motion_module_resolutions:
+    - 1
+    - 2
+    - 4
+    - 8
+    motion_module_mid_block: true
+    motion_module_decoder_only: false
+    motion_module_type: Vanilla
+    motion_module_kwargs:
+      num_attention_heads: 8
+      num_transformer_block: 1
+      attention_block_types:
+      - Temporal_Self
+      - Temporal_Self
+      temporal_position_encoding: true
+      temporal_position_encoding_max_len: 32
+      temporal_attention_dim_div: 1
+
+  noise_scheduler_kwargs:
+    beta_start: 0.00085
+    beta_end: 0.012
+    beta_schedule: "linear"

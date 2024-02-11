@@ -1,0 +1,3 @@
+[submodule "models/StableDiffusion"]
+	path = models/StableDiffusion
+	url = https://huggingface.co/runwayml/stable-diffusion-v1-5

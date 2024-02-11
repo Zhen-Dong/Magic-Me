@@ -1,0 +1,9 @@
+*.ckpt
+*.pyc
+samples/**
+*.swp
+.DS_store
+outputs/
+dataset/
+configs/
+wandb/

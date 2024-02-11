@@ -1,0 +1,2 @@
+wget -c https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt?download=true -O models/Motion_Module/mm_sd_v15_v2.ckpt &&
+wget -c 'https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=full&fp=fp16' -O models/DreamBooth_LoRA/realisticVisionV51_v20Novae.safetensors
