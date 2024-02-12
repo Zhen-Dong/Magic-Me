@@ -42,10 +42,14 @@ Altman| Altman | Robert |Taylor
 
 
 
+
+
+
+
 Original Video| Altman | Bengio |Zuck
 :-: | :-: | :-: | :-:
 | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/59c097ee-6626-4b6f-9af4-585af46c1d00">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/48b9d3bc-65de-4fda-a23d-292e2f00c53d"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/7b3a26d4-4ef4-4c6b-b2ac-a4ad9fb8eec6"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/ad968365-bed0-4df8-9400-9d1b81f709b2"> |
-| <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/4bb5c66a-b1d2-40b3-8daa-97b6981e1cba">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/15767e37-9f2a-4f0e-8b47-e516f63bebfc"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/181c0039-85d0-4da3-ab50-29d5cde4d159"> | <video src="[https://drive.google.com/file/d/1GLSsAyVHa0nNrWLvLkz-Cm7di3hmMoJ0/preview"> |
+| <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/4bb5c66a-b1d2-40b3-8daa-97b6981e1cba">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/15767e37-9f2a-4f0e-8b47-e516f63bebfc"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/181c0039-85d0-4da3-ab50-29d5cde4d159"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/13412208/6347f651-3451-46a9-96dd-97e5352c10f5"> |
 
 ## Next
 More works will be released soon. Stay tuned.
