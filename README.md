@@ -78,7 +78,16 @@ source download_checkpoint.sh
     ```python train.py --config configs/your_config.yaml```
 
 ## Inference
-- Magic Album: Click the link of colab and follow the instructions [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]().
+- Magic Album:
+  - use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12mcMlWjMm3d7etovSCC1CxU4lk2d1bno?usp=sharing)  to run ComfyUI with cloudflared
+  - By following the instruction in the notebook, you will be able to use our pre-trained embeddings (incl. Sam Altman, Harry Potter, Andrew Ng, etc.) to generate your own Text-to-Video.
+  - Apart from the default ComfyUI workflow (which will be automatically preloaded when you open ComfyUI the first time), we also provide the following workflows using different prompts to help you explore more scenes:
+    - superman.json
+    - cherry_blossoms.json
+    - walking.json
+    - northern_lights.json
+    - desert.json
+
 
 <!-- ## BibTeX
 ```
