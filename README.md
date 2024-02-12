@@ -70,7 +70,7 @@ conda env create -f environment.yaml
    git lfs install
    git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
    ```
-2. motion module and realistic vision checkpoints
+2. Download motion module and realistic vision checkpoints
    ```
    source download_checkpoint.sh
    ```
