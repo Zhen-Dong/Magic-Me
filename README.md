@@ -10,8 +10,6 @@ Magic-Me includes a series of research work about ID-specific content generation
 
 
 **Magic Album: Identity-Specific Video Customized Diffusion**
-
-
 </br>
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
