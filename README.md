@@ -43,15 +43,15 @@ More works will be released soon. Stay tuned.
     - [x] Release arxiv and codes
     - [x] Release demo
 
-2. Magic Editting
+2. Magic ID-ditting
     - [ ] Release arxiv and codes
     - [x] Release demo
 
-3. Magic Album Zero
+3. Magic Album-Zero
     - [ ] Release arxiv and codes
     - [ ] Release demo
 
-4. Magic Album People
+4. Magic Album-Multi-pereson
     - [ ] Release arxiv and codes
     - [ ] Release demo
 
