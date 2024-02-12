@@ -9,7 +9,7 @@
 Magic-Me includes a series of research work about ID-specific content generation by UC Berkeley and ByteDance.
 
 
-**Magic Album: Identity-Specific Video Customized Diffusion**
+**Magic-Me: Identity-Specific Video Customized Diffusion**
 </br>
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
@@ -37,7 +37,7 @@ Original Video| Altman | Bengio |Zuck
 
 ## Next
 More works will be released soon. Stay tuned.
-1. Magic Album
+1. Magic-Me
     - [ ] Support SD-XL
     - [ ] Integrate pose/depth/stretch control
     - [x] Integrate multi-prompt / Prompt Travel
@@ -48,11 +48,11 @@ More works will be released soon. Stay tuned.
     - [ ] Release arxiv and codes
     - [x] Release demo
 
-3. Magic Album-Zero
+3. Magic-Me Instant
     - [ ] Release arxiv and codes
     - [ ] Release demo
 
-4. Magic Album-Multi-pereson
+4. Magic-Me Crowd
     - [ ] Release arxiv and codes
     - [ ] Release demo
 
