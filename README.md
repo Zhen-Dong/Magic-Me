@@ -1,9 +1,12 @@
+**Project Page: [Magic-Me]()**
+
 # Magic-Me
-[![Project Page](https://img.shields.io/badge/Project-Website-green)]()
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![arXiv](https://img.shields.io/badge/arxiv-soon_to_be_released-blue)]()
 
-This repo includes a series of research work about ID-specific content generation by UC Berkeley X ByteDance.
+
+Magic-Me includes a series of research work about ID-specific content generation by UC Berkeley and ByteDance.
 
 
 **Magic Album: Identity-Specific Video Customized Diffusion**
@@ -65,8 +68,8 @@ conda env create -f environment.yaml
 source download_checkpoint.sh
 ```
 
-## Train extended ID tokens
-- Quick training.
+## Train and evaluate extended ID tokens
+- Quick training with evaluation.
     ```
     conda activate magic
     source train.sh
@@ -94,6 +97,15 @@ source download_checkpoint.sh
 @article{
 }
 ``` -->
+
+## Interesting Prmopts:
+**Use embedding:firstname man for the male character and embedding:firstname woman for the female.**
+1. a photo of embedding:firstname man in superman costume in the outer space, stars in the background.
+2. a photo of embedding:firstname woman, desert, a striking tableau forms around a solitary figure who stoically stands against the whipping winds and stinging sands. Clad in a worn, tattered, dark brown cloak, with hood pulled low, only hinting at the determined visage beneath - this individual embodies fortitude and tenacity.
+3. a photo of embedding:firstname woman, clad in exquisite hybrid armor, studded with iridescent gemstones, Cherry blossoms sway gently in the breeze, lithesome figure against a softly blurred backdrop. style of Gerald Parel, ward-winning, professional, highly detailed.
+4. a photo of embedding:firstname man walking on the street, B&W, city, captured on a 35mm camera, black and white, classic film. inside Film Still, film grain, Movie Still, Film Still, Cinematic, Cinematic Shot, Cinematic Lighting
+5. a photo of embedding:firstname man, amazing quality, knight, holding a sword, dazzling ,transparent ,polishing, waving sword, gold armor, glowing armor, glowing eyes, full armor, shine armor, dazzling armor, masterpiece, best quality, hyper detailed, ultra detailed, UHD, perfect anatomy, (in castle:1.2).
+
 
 ## Disclaimer
 This project is released for academic use. We disclaim responsibility for user-generated content. Users are solely liable for their actions. The project contributors are not legally affiliated with, nor accountable for, users' behaviors. Use the generative model responsibly, adhering to ethical and legal standards. 
