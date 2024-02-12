@@ -61,12 +61,21 @@ More works will be released soon. Stay tuned.
 
 ## Install 
 ```
-git lfs install
 git clone https://github.com/Zhen-Dong/Magic-Me.git
 cd Magic-Me
 conda env create -f environment.yaml 
-source download_checkpoint.sh
 ```
+
+## Download checkpoints
+1. Stable Diffusion 1.5
+   ```
+   git lfs install
+   git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
+   ```
+2. motion module and realistic vision checkpoints
+   ```
+   source download_checkpoint.sh
+   ```
 
 ## Train and evaluate extended ID tokens
 - Quick training with evaluation.
