@@ -93,8 +93,8 @@ conda env create -f environment.yaml
   - In the ComfyUI, one click on the **"Queue Prompt"** to generate the video.
   - Feel free to change the prompt inside ComfyUI (*embedding:firstname man* for male, *embedding:firstname woman* for female) <img width="300" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/68e8747f-e7b3-4cb6-afd6-d4ad24f2177d">
   - The available embeddings are cloned into the directory **magic_factory/Magic-ComfyUI/models/embeddings**.
-  - <img width="229" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/de056544-eeb1-4d7c-b1a1-f1ac4f5c210a">
-  feel free to put your newly trained embeddings, for example boy1.pt, in the same directory, and mention the mebdding as **embedding:boy1 man** in the ComfyUI prompt.
+    <img width="500" alt="NH2IbZLrgoXbJQxEsbKuwYedsof" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/166cd933-2f6f-4878-8c22-34527fe49983">    
+    feel free to put your newly trained embeddings, for example boy1.pt, in the same directory, and mention the mebdding as **embedding:boy1 man** in the ComfyUI prompt.
   
 
 <!-- ## BibTeX
