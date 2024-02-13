@@ -90,8 +90,8 @@ conda env create -f environment.yaml
 - Option 1 (T2V VCD)
   - The generated videos from the prompts in the ```configs/ceo.yaml``` are saved during training in the directory of **outputs/magic-me-ceo-xxxxx/samples**.
 - Option 2 (T2V + Face + Tiled VCD)
-  - This requires you have credis in Colab.
-  - Use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)  to run ComfyUI with colab.
+  - This requires you are subscribed to Google Colab. Users must comply with Google Colab's terms of service and respect copyright laws, ensuring that the resources provided are used responsibly and ethically for academic, educational, or research purposes only.
+  - Use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)  to run ComfyUI.
   - In the ComfyUI, one click on the **"Queue Prompt"** to generate the video.
   - Feel free to change the prompt inside ComfyUI (*embedding:firstname man* for male, *embedding:firstname woman* for female)
 
