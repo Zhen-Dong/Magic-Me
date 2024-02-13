@@ -55,6 +55,7 @@ More works will be released soon. Stay tuned.
 
 
 ## Install 
+First, make sure that Anaconda is installed (refer to official [Install Tutorial](https://docs.anaconda.com/free/anaconda/install/)).
 ```
 git clone https://github.com/Zhen-Dong/Magic-Me.git
 cd Magic-Me
