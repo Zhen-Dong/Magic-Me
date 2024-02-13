@@ -91,7 +91,10 @@ conda env create -f environment.yaml
 - Option 2 (T2V + Face + Tiled VCD)
   - Use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12mcMlWjMm3d7etovSCC1CxU4lk2d1bno?usp=sharing)  to run ComfyUI with colab.
   - In the ComfyUI, one click on the **"Queue Prompt"** to generate the video.
-  - Feel free to change the prompt inside ComfyUI (*embedding:firstname man* for male, *embedding:firstname woman* for female) <img width="300" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/68e8747f-e7b3-4cb6-afd6-d4ad24f2177d">    
+  - Feel free to change the prompt inside ComfyUI (*embedding:firstname man* for male, *embedding:firstname woman* for female) <img width="300" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/68e8747f-e7b3-4cb6-afd6-d4ad24f2177d">
+  - The available embeddings are cloned into the directory **magic_factory/Magic-ComfyUI/models/embeddings**.
+  - <img width="229" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/de056544-eeb1-4d7c-b1a1-f1ac4f5c210a">
+  feel free to put your newly trained embeddings, for example boy1.pt, in the same directory, and mention the mebdding as **embedding:boy1 man** in the ComfyUI prompt.
   
 
 <!-- ## BibTeX
