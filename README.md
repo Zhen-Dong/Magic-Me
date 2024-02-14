@@ -15,8 +15,12 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 **Video Demonstration**
 
 <div align="center">
-  <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/b803bd43-e007-4ea9-8ed9-e65ac4b994eb" width="100">
+  <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/8330f571-fecc-45b0-885e-c82682452a6a" width="100">
 </div>
+
+
+
+
 
 
 **Video Customization Diffusion Model Pipeline**
