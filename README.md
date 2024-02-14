@@ -6,6 +6,10 @@
 [![arXiv](https://img.shields.io/badge/arxiv-soon_to_be_released-blue)]()
 
 
+https://github.com/Zhen-Dong/Magic-Me/assets/147695338/b803bd43-e007-4ea9-8ed9-e65ac4b994eb
+
+
+
 **Magic-Me: Identity-Specific Video Customized Diffusion**
 
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
