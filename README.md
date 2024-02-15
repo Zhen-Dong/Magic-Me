@@ -7,7 +7,9 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 > In this repository, we propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
 > It includes three novel components that are essential for high-quality ID preservation: 1) an ID module trained with the cropped identity by prompt-to-segmentation to disentangle the ID information and the background noise for more accurate ID token learning; 2) a text-to-video (T2V) VCD module with 3D Gaussian Noise Prior for better inter-frame consistency and 3) video-to-video (V2V) Face VCD and Tiled VCD modules to deblur the face and upscale the video for higher resolution.
 >
-> We provide a library of pre-trained library with 20 characters. You can ask those characters to do anything with text description. You can also train your own characters with the provided scripts.
+> **We provide a library of pre-trained library with 20 characters. You can ask those characters to do anything with text description. You can also train your own characters with the provided scripts.**
+>
+> 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.09368-b31b1b.svg)](https://arxiv.org/abs/2402.09368)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
