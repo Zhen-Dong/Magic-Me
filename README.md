@@ -104,20 +104,27 @@ conda env create -f environment.yaml
   - Use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)  to run ComfyUI.
   - In the ComfyUI, one click on the **"Queue Prompt"** to generate the video.
   - Feel free to change the prompt inside ComfyUI (*embedding:firstname man* for male, *embedding:firstname woman* for female)
+    We have provided 24 different character embedding for use:
+    
+    *altman.pt beyonce.pt harry.pt huang.pt johnson.pt lisa.pt musk.pt taylor.pt andrew_ng.pt biden.pt hermione.pt ironman.pt lecun.pt mona.pt obama.pt trump.pt bengio.pt eli.pt hinton.pt jack_chen.pt lifeifei.pt monroe.pt scarlett.pt zuck.pt*
 
     <img width="300" alt="image" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/68e8747f-e7b3-4cb6-afd6-d4ad24f2177d">
   - The available embeddings are cloned into the directory **magic_factory/Magic-ComfyUI/models/embeddings**.
 
-    <img width="500" alt="NH2IbZLrgoXbJQxEsbKuwYedsof" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/166cd933-2f6f-4878-8c22-34527fe49983">    
     
     Feel free to put your newly trained embeddings, for example boy1.pt, in the same directory, and mention the mebdding as **embedding:boy1 man** in the ComfyUI prompt.
-  
+  <!-- comfyui prompt node image
+    <img width="500" alt="NH2IbZLrgoXbJQxEsbKuwYedsof" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/166cd933-2f6f-4878-8c22-34527fe49983">    
+-->
 
-<!-- ## BibTeX
-```
-@article{
-}
-``` -->
+```@misc{ma2024magicme,
+      title={Magic-Me: Identity-Specific Video Customized Diffusion}, 
+      author={Ze Ma and Daquan Zhou and Chun-Hsiao Yeh and Xue-She Wang and Xiuyu Li and Huanrui Yang and Zhen Dong and Kurt Keutzer and Jiashi Feng},
+      year={2024},
+      eprint={2402.09368},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}```
 
 ## Interesting Prompts:
 **Use embedding:firstname man for the male character and embedding:firstname woman for the female.**
