@@ -90,7 +90,7 @@ conda env create -f environment.yaml
     source train.sh
     ```
 - Customized training of a specific identity
-    1. Select 5-10 images of a specific identity into a new diretory under ```dataset```.
+    1. Select 5-10 images of a specific identity into a new directory under ```dataset```.
     2. Make a new ```.yaml``` out of ```configs/ceo.yaml```.
     3. Run the training codes in conda env **magic**.    
     ```python train.py --config configs/your_config.yaml```
