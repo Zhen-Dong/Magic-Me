@@ -1,10 +1,10 @@
 **Project Page: [Magic-Me](https://magic-me-webpage.github.io/)**
 
-# Magic-Me: Identity-Specific Video Customized Diffusion
+# Magic-Me: Identity-Specific Video Generation
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
 </br>
-> In this repository, we propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
+> We provide a new framework for video generation with customized identity. With a pre-trained ID token, the user would be able to generate any video clips with the specified identity. We propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
 > It includes three novel components that are essential for high-quality ID preservation: 1) an ID module trained with the cropped identity by prompt-to-segmentation to disentangle the ID information and the background noise for more accurate ID token learning; 2) a text-to-video (T2V) VCD module with 3D Gaussian Noise Prior for better inter-frame consistency and 3) video-to-video (V2V) Face VCD and Tiled VCD modules to deblur the face and upscale the video for higher resolution.
 >
 > **We provide a library of pre-trained library with 20 characters. You can ask those characters to do anything with text description. You can also train your own characters with the provided scripts.**
