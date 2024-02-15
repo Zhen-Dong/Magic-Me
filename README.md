@@ -113,18 +113,18 @@ conda env create -f environment.yaml
 
     
     Feel free to put your newly trained embeddings, for example boy1.pt, in the same directory, and mention the mebdding as **embedding:boy1 man** in the ComfyUI prompt.
-  <!-- comfyui prompt node image
-    <img width="500" alt="NH2IbZLrgoXbJQxEsbKuwYedsof" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/166cd933-2f6f-4878-8c22-34527fe49983">    
--->
 
-```@misc{ma2024magicme,
+## BibTeX
+```
+@misc{ma2024magicme,
       title={Magic-Me: Identity-Specific Video Customized Diffusion}, 
       author={Ze Ma and Daquan Zhou and Chun-Hsiao Yeh and Xue-She Wang and Xiuyu Li and Huanrui Yang and Zhen Dong and Kurt Keutzer and Jiashi Feng},
       year={2024},
       eprint={2402.09368},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
-}```
+}
+```
 
 ## Interesting Prompts:
 **Use embedding:firstname man for the male character and embedding:firstname woman for the female.**
