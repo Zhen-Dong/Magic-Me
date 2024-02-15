@@ -99,7 +99,7 @@ conda env create -f environment.yaml
     ```python train.py --config configs/your_config.yaml```
     4. The ID embeddings are available in the directory of **outputs/magic-me-ceo-xxxxx/checkpoints**.
 
-## Inference
+## Inference: Using Pre-trained Characters to generate video scenes
 - Option 1 (T2V VCD)
   - The generated videos from the prompts in the ```configs/ceo.yaml``` are saved during training in the directory of **outputs/magic-me-ceo-xxxxx/samples**.
 - Option 2 (T2V + Face + Tiled VCD)
