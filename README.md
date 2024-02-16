@@ -1,21 +1,24 @@
 **Project Page: [Magic-Me](https://magic-me-webpage.github.io/)**
 
-Unlike common text-to-video model (Like [Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories.
+Unlike common text-to-video model (like [OpenAI/Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories. We also provide a library of pre-trained library with 24 characters.
+
+
+<!-- We provide a library of pre-trained library with 24 characters. You can ask those characters to do anything with text description. You can also customize your own characters such as your friends, families and pets with the provided scripts.-->
 
 
 # Magic-Me: Identity-Specific Video Customized Diffusion
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
-</br>
-> We provide a new framework for video generation with customized identity. With a pre-trained ID token, the user would be able to generate any video clips with the specified identity. We propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
-> It includes three novel components that are essential for high-quality ID preservation: 1) an ID module trained with the cropped identity by prompt-to-segmentation to disentangle the ID information and the background noise for more accurate ID token learning; 2) a text-to-video (T2V) VCD module with 3D Gaussian Noise Prior for better inter-frame consistency and 3) video-to-video (V2V) Face VCD and Tiled VCD modules to deblur the face and upscale the video for higher resolution.
->
-> **We provide a library of pre-trained library with 24 characters. You can ask those characters to do anything with text description. You can also customize your own characters such as your friends, families and pets with the provided scripts.**
->
-> 
+> We propose a new framework for video generation with customized identity. With a pre-trained ID token, the user would be able to generate any video clips with the specified identity. We propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
+It includes three novel components that are essential for high-quality ID preservation: 1) an ID module trained with the cropped identity by prompt-to-segmentation to disentangle the ID information and the background noise for more accurate ID token learning; 2) a text-to-video (T2V) VCD module with 3D Gaussian Noise Prior for better inter-frame consistency and 3) video-to-video (V2V) Face VCD and Tiled VCD modules to deblur the face and upscale the video for higher resolution.
+
 [![arXiv](https://img.shields.io/badge/arXiv-2402.09368-b31b1b.svg)](https://arxiv.org/abs/2402.09368)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+**Video Customization Diffusion Model Pipeline**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="__assets__/figs/framwork-comfyui-v1.png" style="width:95%">
 
 
 **Video Demonstration**
@@ -25,8 +28,6 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 </div>
 
 
-**Video Customization Diffusion Model Pipeline**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="__assets__/figs/framwork-comfyui-v1.png" style="width:95%">
 
 **ID Specific Video Generation with reference images**
 
