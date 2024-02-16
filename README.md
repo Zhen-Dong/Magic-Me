@@ -3,10 +3,6 @@
 Unlike common text-to-video model (Like [Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories.
 
 
-
-
-
-
 # Magic-Me: Identity-Specific Video Customized Diffusion
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
@@ -14,7 +10,7 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 > We provide a new framework for video generation with customized identity. With a pre-trained ID token, the user would be able to generate any video clips with the specified identity. We propose a series of controllable Video generation and editing methods. The first release includes Customized Diffusion (VCD).
 > It includes three novel components that are essential for high-quality ID preservation: 1) an ID module trained with the cropped identity by prompt-to-segmentation to disentangle the ID information and the background noise for more accurate ID token learning; 2) a text-to-video (T2V) VCD module with 3D Gaussian Noise Prior for better inter-frame consistency and 3) video-to-video (V2V) Face VCD and Tiled VCD modules to deblur the face and upscale the video for higher resolution.
 >
-> **We provide a library of pre-trained library with 20 characters. You can ask those characters to do anything with text description. You can also train your own characters with the provided scripts.**
+> **We provide a library of pre-trained library with 24 characters. You can ask those characters to do anything with text description. You can also customize your own characters such as your friends, families and pets with the provided scripts.**
 >
 > 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.09368-b31b1b.svg)](https://arxiv.org/abs/2402.09368)
@@ -36,16 +32,17 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 **Video Customization Diffusion Model Pipeline**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="__assets__/figs/framwork-comfyui-v1.png" style="width:95%">
 
-**ID Specific Video Generation**
+**ID Specific Video Generation with reference images**
 
-Altman| Altman | Robert |Taylor
+
+
+
+Altman| Lecun | Robert |Taylor
 :-: | :-: | :-: | :-:
-| <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/6f18f2f9-89e5-4c05-9f3c-723bc374e9de">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/454497b3-f0bf-4341-9415-e068f39e9246"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ab6912a8-90bd-4fc8-8b1c-c30a64dcff7a"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/0f169b01-0125-484d-a1c2-34691fdcd165"> |
+| <image src=https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ca993c4d-253a-47c1-afcb-4b3716f59f65>  | <image src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/dcc611ea-b281-4797-87d9-ff1600f656e0" > | <image width = "500" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/4345e62c-e59e-4eac-9a0c-0441edfd7c0f"> | <image src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/863fb047-bd11-4ee8-a4cd-5e0d9b95ac80"> 
+| <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/6f18f2f9-89e5-4c05-9f3c-723bc374e9de">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/84369d5a-502d-4cea-abcf-3f58b7712054"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ab6912a8-90bd-4fc8-8b1c-c30a64dcff7a"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/0f169b01-0125-484d-a1c2-34691fdcd165"> |
 
-
-
-
-**ID Specific Video Editing**
+**ID Specific Video Editing with reference images**
 
 Original Video| Altman | Bengio |Zuck
 :-: | :-: | :-: | :-:
