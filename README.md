@@ -128,7 +128,7 @@ conda env create -f environment.yaml
 }
 ```
 
-## Interesting Prompts:
+## Interesting Prompts
 **Use embedding:firstname man for the male character and embedding:firstname woman for the female.**
 1. a photo of embedding:firstname man in superman costume in the outer space, stars in the background.
 2. a photo of embedding:firstname woman, desert, a striking tableau forms around a solitary figure who stoically stands against the whipping winds and stinging sands. Clad in a worn, tattered, dark brown cloak, with hood pulled low, only hinting at the determined visage beneath - this individual embodies fortitude and tenacity.
