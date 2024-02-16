@@ -1,5 +1,11 @@
 **Project Page: [Magic-Me](https://magic-me-webpage.github.io/)**
-Feel free to train your own character! 
+
+Unlike common text-to-video model (Like [Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories.
+
+
+
+
+
 
 # Magic-Me: Identity-Specific Video Customized Diffusion
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
