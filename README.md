@@ -1,6 +1,7 @@
 **Project Page: [Magic-Me](https://magic-me-webpage.github.io/)**
+Feel free to train your own character! 
 
-# Magic-Me: Identity-Specific Video Generation
+# Magic-Me: Identity-Specific Video Customized Diffusion
 Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Yang, Zhen Dong &dagger;, Kurt Keutzer, Jiashi Feng 
 (*Joint First Author, &dagger; Corresponding Author)
 </br>
