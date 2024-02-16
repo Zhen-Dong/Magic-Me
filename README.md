@@ -33,7 +33,7 @@ Ze Ma*, Daquan Zhou* &dagger;, Chun-Hsiao Yeh, Xue-She Wang, Xiuyu Li, Huanrui Y
 
 Altman| Lecun | Robert |Taylor
 :-: | :-: | :-: | :-:
-| <image src=https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ca993c4d-253a-47c1-afcb-4b3716f59f65>  | <image src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/dcc611ea-b281-4797-87d9-ff1600f656e0" > | <image width = "500" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/4345e62c-e59e-4eac-9a0c-0441edfd7c0f"> | <image src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/863fb047-bd11-4ee8-a4cd-5e0d9b95ac80"> 
+| <image width = "500" src=https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ca993c4d-253a-47c1-afcb-4b3716f59f65>  | <image width = "250" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/dcc611ea-b281-4797-87d9-ff1600f656e0" > | <image width = "500" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/4345e62c-e59e-4eac-9a0c-0441edfd7c0f"> | <image width = "250" src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/863fb047-bd11-4ee8-a4cd-5e0d9b95ac80"> 
 | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/73f82bd8-c1dd-404e-b7b2-18990119215f">  | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ba7718ab-0c44-4ef5-9b40-62dd2bf9221d"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/ab6912a8-90bd-4fc8-8b1c-c30a64dcff7a"> | <video src="https://github.com/Zhen-Dong/Magic-Me/assets/147695338/0f169b01-0125-484d-a1c2-34691fdcd165"> |
 
 **ID Specific Video Editing with reference images**
