@@ -88,7 +88,7 @@ conda env create -f environment.yaml
    source download_checkpoint.sh
    ```
 
-## Train and evaluate extended ID tokens
+## Train and Evaluate Extended ID tokens
 - Quick training with evaluation.
     ```
     conda activate magic
@@ -100,11 +100,12 @@ conda env create -f environment.yaml
     3. Run the training codes in conda env **magic**.    
     ```python train.py --config configs/your_config.yaml```
     4. The ID embeddings are available in the directory of **outputs/magic-me-ceo-xxxxx/checkpoints**.
-
+    5. The generated videos by T2V VCD from the prompts in the ```configs/ceo.yaml``` are saved during training in the directory of **outputs/magic-me-ceo-xxxxx/samples**.
+       
 ## Inference: Using Pre-trained Characters to generate video scenes
-- Option 1 (T2V VCD)
-  - The generated videos from the prompts in the ```configs/ceo.yaml``` are saved during training in the directory of **outputs/magic-me-ceo-xxxxx/samples**.
-- Option 2 (T2V + Face + Tiled VCD)
+- Option 1 - Hugging Face
+  - We have deployed our pre-trained model on Hugging Face's GPU platform, making it available for immediate use. Check it out on [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/visionMaze/Magic-Me).
+- Option 2 - Colab
   - This requires you are subscribed to Google Colab. Users must comply with Google Colab's terms of service and respect copyright laws, ensuring that the resources provided are used responsibly and ethically for academic, educational, or research purposes only.
   - Use this Colab Notebook  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)  to run ComfyUI.
   - In the ComfyUI, one click on the **"Queue Prompt"** to generate the video.
