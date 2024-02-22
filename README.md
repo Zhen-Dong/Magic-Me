@@ -1,9 +1,10 @@
 **Project Page: [Magic-Me](https://magic-me-webpage.github.io/)**
 
-Unlike common text-to-video model (like [OpenAI/Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories. We also provide a library of pre-trained library with 24 characters.
-
+Unlike common text-to-video model (like [OpenAI/Sora](https://openai.com/sora)), this model is for personalized videos using photos of your friends, family, or pets. By training an embedding with these images, it creates custom videos featuring your loved ones, bringing a unique touch to your memories. 
 
 <!-- We provide a library of pre-trained library with 24 characters. You can ask those characters to do anything with text description. You can also customize your own characters such as your friends, families and pets with the provided scripts.-->
+
+**News Update**: We have deployed our model on Hugging Face's GPU platform, making it available for immediate use. Check it out on [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/visionMaze/Magic-Me).
 
 
 # Magic-Me: Identity-Specific Video Customized Diffusion
@@ -14,7 +15,8 @@ It includes three novel components that are essential for high-quality ID preser
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.09368-b31b1b.svg)](https://arxiv.org/abs/2402.09368)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gMialn4nkGeDZ72yx1Wob1E1QBgrqeGa?usp=drive_link)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/visionMaze/Magic-Me)
+<!-- [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) -->
 
 
 **Video Customization Diffusion Model Pipeline**
@@ -50,6 +52,7 @@ More works will be released soon. Stay tuned.
     - [ ] Support SD-XL
     - [ ] Integrate pose/depth/stretch control
     - [x] Integrate multi-prompt / Prompt Travel
+    - [x] Host model on Hugging Face with Gradio as FE
     - [x] Release arxiv and codes
     - [x] Release demo
 
